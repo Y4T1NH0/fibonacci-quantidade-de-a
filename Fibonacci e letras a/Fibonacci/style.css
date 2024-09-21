@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#num {
+    display: flex;
+    align-items: center;
+    margin: 2rem auto 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+
+#title{
+    text-align: center;
+    color: rgb(12, 248, 118);
+}
+#result{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 3rem auto 0;
+    background-color: rgb(20, 245, 121);
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: .6;
+}
+
+#result:hover{
+    opacity: 1;
+}
+
+#rst{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto 0;
+    
+
+   
+}
+
+html{
+    background: url(img/custom-image-of-deku-all-might-bakugo-todoroki-with-a-manga-panel-in-the-background.avif);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+   
+}
+
+#answer{
+    text-align: center;
+}
